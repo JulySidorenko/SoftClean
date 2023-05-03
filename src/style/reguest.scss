@@ -1,0 +1,109 @@
+.request {
+    margin-top: 30px;
+    .request-backg {
+        height: 278px;
+        background-color: #43AAFF;
+        background-image: url(../img/backgr.png);
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+        .girl-img {
+            position: absolute;
+            top: 0;
+            right: 80px;
+            width: 410px;
+            height: 278px;
+        }
+        .bubles-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 440px;
+            height: 278px;
+        }
+        .bush-img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 228px;
+            height: 143px;
+        }
+        .request-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            margin-top: 42px;
+            margin-left: 60px;
+            width: 357px;
+            .request-text-thin {
+                font-weight: 800;
+                .request-text-upper {
+                    text-transform: uppercase;
+                }
+            }
+        }   
+        .phone-input-text {
+            margin-top: 32px;
+            margin-left: 60px;
+            display: flex;
+            justify-content: space-between;
+            width: 560px;
+            .phone-input {
+                width: 236px;
+                height: 70px;
+                border-radius: 30px;
+                border: none;
+                padding-left: 39px;
+            }
+        }
+        .confidentiality {
+            display: flex;
+            margin-top: 25px;
+            margin-left: 60px;
+            color: white;
+            font-size: 11px;
+            font-weight: 300;
+            text-align: center;
+          }
+          .real-checkbox {
+            width: 0;
+            height: 0;
+            opacity: 0;
+            position: absolute;
+            z-index: -1;
+          }
+          .custom-checkbox {
+            position: relative;
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            background-color: #FFC24D;
+            border-radius: 4px;
+            margin-right: 6px;
+            vertical-align: sub;
+          }
+          .custom-checkbox::before {
+            content: '';
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            background-image:url("../img/vector.svg");
+            background-size: contain;
+            background-image: no-repeat;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            transition: 0.2s ease-in;
+          }
+          .real-checkbox:checked + .custom-checkbox::before {
+            transform: translate(-50%, -50%) scale(1);
+          }
+          .decor {
+            text-decoration: underline;
+          }
+          .text-align-left {
+            text-align: left;
+          }
+    }
+}

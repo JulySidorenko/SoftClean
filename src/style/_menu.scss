@@ -1,0 +1,33 @@
+.menu-main {
+    margin-top: 28px;
+    height: 70px;
+    margin-left: -15px;
+    .wrapper-menu {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 30px;
+      box-shadow: 0 0 20px 2px rgba(15, 15, 15, 0.14);
+      padding: 0 37px;
+      .menu-item {
+      height: 100%;
+      font-size: 14px;
+      list-style-type: none;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      }
+      .menu-item a {
+        text-decoration: none;
+        color: #4B5258;
+        padding: 20px 20px;
+      }
+      .menu-item:hover {
+        height: 100%;
+        color: white;
+        background-color: #43AAFF;
+        border-radius: 30px;
+      }
+    }
+}
+  
+  

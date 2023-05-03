@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "name": "soft-clean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.61.0"
+  }
+}

@@ -1,0 +1,121 @@
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid #43AAFF;
+    text-align: center;
+}
+/*.button-cons {
+    margin-top: 50px;
+}*/
+.btn-yellow {  
+    margin-left: 15px;
+    width: 280px;
+    height: 80px;
+    background-color: #FFC24D;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: rgb(255, 194, 77);
+    box-shadow: 0px 3px 3px 1px rgb(255, 194, 77, 0.40);
+}
+.btn-blue {
+    margin-left: 0px;
+    width: 280px;
+    height: 80px;
+    background-color:#43AAFF;
+    /*border: none;*/
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    /*box-shadow: 5px 20px 30px rgba(255, 255, 255, 0.3);*/
+    /*background-color: rgb(67, 170, 255);*/
+    box-shadow: 0px 3px 3px 1px rgb(67, 170, 255, 0.40);
+  }
+.wt250px {
+    width: 250px;
+}
+.btn-color {
+    margin-top: 50px;
+    margin-left: 0px;
+    z-index: 5;
+  } 
+.btn-honesty {
+    width: 275px;
+    height: 70px;
+    background-color:#FFC24D;
+    color: white;
+    font-weight: 300;
+    font-size: 13px;
+    box-shadow: 0px 3px 3px 1px rgb(255, 194, 77, 0.40);
+}
+.request-btn {
+    width: 275px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: #FFC24D;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 300;
+    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+.cleaning-btn {
+    margin-top: 5px;
+    width: 206px;
+    height: 50px;
+    background-color:#43AAFF;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    box-shadow: 0px 3px 3px 1px rgb(67, 170, 255, 0.40); 
+}
+.booking-btn {
+    margin-top: 20px;
+    width: 275px;
+    height: 70px;
+    background-color:#43AAFF;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+.price-btn {
+    width: 130px;
+    height: 70px;
+    vertical-align: center;
+    border-radius: 20px;
+    text-align: center;
+}
+.price-calc {
+    margin-top: 10px;
+    width: 270px;
+    height: 70px;
+    background-color: #FFC24D;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: rgb(255, 194, 77);
+    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+}

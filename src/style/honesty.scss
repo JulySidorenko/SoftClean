@@ -1,0 +1,105 @@
+.honesty {
+    text-align: center;
+    margin-top: 106px;
+    .honesty-text-main {
+        font-size: 30px;
+        font-weight: 800;
+        color: #4B5258;
+        margin-bottom: 16px;
+        .honesty-text-bold {
+            font-weight: 600;
+        }
+    }
+    .honesty-text-color {
+        width: 650px;
+        margin-top: 16px;
+        height: 96px;
+        background-color: #FFC24D;
+        color: white;
+        font-size: 22px;
+        border-radius:30px;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        .honesty-text {
+            justify-content: center;
+        }
+    }
+    .honesty-items {
+        display: flex;
+        justify-content: space-between;
+        .honesty-item {
+            margin-top: 50px;
+            display: flex;
+            position: relative;
+            width: 328px;
+            height: 360px;
+            box-shadow: 0px 5px 5px 8px rgba(67, 170, 255, 0.15);
+            overflow: hidden;
+            border-radius:30px;
+            .check-img {
+            position: absolute;
+            top: 30px;
+            left: -20px;    
+            width: 146px;
+            height: 165px;
+            }
+            .diary-img {
+                position: absolute;
+                top: -15px;
+                left: 70px;    
+                width: 171px;
+                height: 189px;
+                z-index: -1;
+            }
+            .bottle-left-img {
+                position: absolute;
+                top: 15px;
+                left: 20px;    
+                width: 123px;
+                height: 163px;
+            }
+            .bottle-right-img {
+                position: absolute;
+                top: 45px;
+                left: 120px;    
+                width: 90px;
+                height: 116px;
+            }
+            .hypo-img {
+                position: absolute;
+                top: -20px;
+                left: 50px;    
+                width: 293px;
+                height: 224px;
+                mix-blend-mode: hard-light;
+            }
+            .qality-img {
+                position: absolute;
+                top: 20px;
+                left: 60px;    
+                width: 123px;
+                height: 133px;
+                
+            }
+            .honesty-text-item {
+                text-align: left;
+                margin-top: 200px;
+                margin-left: 35px;
+                .honesty-main {
+                font-size: 18px;
+                color: #4B5258;
+                font-weight: 600;
+                }
+                .honesty-item-text {
+                /*width: 268px;*/
+                font-size: 12px;
+                margin-top: 12px;
+                color: #4B5258;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+}
