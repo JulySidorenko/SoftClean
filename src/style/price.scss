@@ -6,6 +6,7 @@
         background-image: url(../img/back.png);
         border-radius: 30px;
         position: relative;
+        overflow: hidden;
         .three-img {
             position: absolute;
             bottom: 0;
@@ -52,6 +53,9 @@
             color: white;
             font-size: 24px;
             font-weight: 600;
+            .price-text-thin {
+              font-weight: 800;
+            }
             .price-text-small {
                 font-size: 14px;
                 font-weight: 300;
